@@ -1,0 +1,136 @@
+body {
+    font-family: 'Lato', sans-serif;
+
+    /* The two forward slashes indicate a comment. The HEX value (#RRGGBB) is the HEX equivalent to lightgray. */
+    background-color: lightgray
+}
+
+.header1 {
+    font-weight: 900;
+    color: rgb(6, 87, 73);
+    letter-spacing: 0.0001em
+}
+
+.header2 {
+    font-weight: 900;
+    color: rgb(2, 32, 56);
+    letter-spacing: 0.0001em
+}
+
+h2 {
+    text-align: left
+}
+
+p, a {
+    text-align: center
+}
+
+#numberOne {
+    color: rgb(1, 59, 1)
+}
+
+#numberTwo {
+    color: rgb(20, 102, 20)
+}
+
+#numberThree {
+    color: rgb(69, 133, 69)
+}
+
+#numberFour {
+    color: rgb(68, 158, 68)
+}
+
+#numberFive {
+    color: rgb(118, 194, 118)
+}
+
+.rm-link {
+    color: gray;
+    text-decoration: none; 
+}
+
+a.rm-link:hover {
+    font-weight: 900;
+    color: red;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: green; 
+}
+
+.Box1 {
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.35);
+    margin: 10px;
+    padding: 0 70px;
+    border: 2px;
+    border-radius: 14px;
+}
+
+.Box2 {
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.56);
+    margin: 10px;
+    padding: 0 70px;
+    border: 2px;
+    border-radius: 14px;
+}
+
+.Box3 {
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.84);
+    margin: 10px;
+    padding: 0 70px;
+    border: 2px;
+    border-radius: 14px;
+}
+
+.Box4 {
+    display: inline-block;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.98);
+    margin: 10px;
+    padding: 0 70px;
+    border: 2px;
+    border-radius: 14px;
+}
+
+.image1, .image2, .image3, .image4 {
+    float: left;
+    width: 50px;
+    height: 45px;
+    margin: 0 10px;
+    background-color: rgb(0, 0, 0);
+}
+
+h3 {
+    font-weight: 700;
+    color: rgb(0, 30, 129) 
+}
+
+.friends1, .place1, .rest1 {
+    font-weight: 800;
+    color: rgb(23, 99, 30);
+}
+
+#friendThree, #friendFour, #friendFive,#placeThree, #placeFour, #placeFive, #restThree, #restFour, #restFive {
+    font-weight: 100;
+    color: rgb(50, 141, 184);
+}
+
+.favelist-divs {
+    display: inline-block;
+    width: 33%;
+    margin: 5px;
+    border: 10px;
+    border-color: black;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+}
